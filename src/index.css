@@ -5,9 +5,13 @@ body {
   height: 100vh;
   overflow-x: hidden;
   max-width: center;
+  background-color: #f3eae3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
