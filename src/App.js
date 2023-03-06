@@ -1,9 +1,12 @@
+import React from "react";
+import leftImg from "../src/images/image-product-desktop.jpg";
 import "./App.css";
+import ImageCard from "./cards/image-card";
 
 function App() {
   return (
-    <div className=" bg-blue-200 flex flex-row justify-between w-[700px] h-[500px] rounded-2xl overflow-hidden">
-      <div className=" flex-1 bg-red-200">left</div>
+    <div className=" bg-[#feffff] flex flex-row justify-between w-[600px] h-[450px] rounded-2xl overflow-hidden">
+      <ImageCard />
       <div className="flex-1">right</div>
     </div>
   );
