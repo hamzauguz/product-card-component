@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const AddToCard = () => {
   return (
@@ -20,15 +21,18 @@ const AddToCard = () => {
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </span>
-        <div className=" flex flex-row items-center justify-between  w-5/6">
+        <div className=" flex flex-row items-center justify-between  w-5/6 mb-3">
           <span className=" font-title_bold text-[#2b755b] text-3xl opacity-90">
             $149.99
           </span>
-          <del className=" font-title_card text-[13px] opacity-40 font-semibold">
+          <del className=" font-title_card text-[13px] opacity-40 font-semibold ">
             $169.99
           </del>
         </div>
-        <span>Add to Cart</span>
+        <span className=" bg-[#3d8268] text-white h-12 rounded-[8px] items-center flex justify-evenly px-10 text-lg font-medium cursor-pointer hover:bg-[#1a4031]">
+          <AiOutlineShoppingCart size={17} />
+          <span>Add to Cart</span>
+        </span>
       </div>
     </div>
   );
