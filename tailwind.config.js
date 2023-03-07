@@ -19,6 +19,7 @@ module.exports = {
       },
       fontFamily: {
         title_card: ["Montserrat", "sans-serif"],
+        title_bold: ["Fraunces", "serif"],
       },
     },
   },
